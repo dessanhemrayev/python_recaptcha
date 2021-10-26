@@ -4,7 +4,7 @@ session = vk.Session(access_token='')
 vk_api = vk.API(session, v="5.131")
 # add new function
 git_add = "coomit"
-
+add="git"
 def share_vk(self):
 
     groupID = []
