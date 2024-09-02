@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reCAPTCHA Example</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <div class="g-recaptcha" data-sitekey="{{ site_key }}"></div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
